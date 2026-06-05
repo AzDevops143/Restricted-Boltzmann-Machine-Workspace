@@ -1,0 +1,6 @@
+{
+  "name": "Restricted Boltzmann Machine Workspace",
+  "description": "An end-to-end academic sandbox for Restricted Boltzmann Machines, featuring interactive model simulation, comparative performance analysis, automatic slide presentation, printable LaTeX state reports, dockercontainerization microservice panels, and unit test suites.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

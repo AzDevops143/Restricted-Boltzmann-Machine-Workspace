@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=JetBrains+Mono:wght@400;700&family=Space+Grotesk:wght@700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  --font-display: "Space Grotesk", sans-serif;
+}
+
+/* Custom Base resets to match the Bold Typography background and text color */
+body {
+  background-color: #E4E3E0;
+  color: #141414;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Print Overrides and Neo-brutalist utility classes */
+.neo-border {
+  border: 2px solid #141414;
+}
+
+.neo-border-thin {
+  border: 1px solid #141414;
+}
+
+.neo-shadow {
+  box-shadow: 4px 4px 0px 0px #141414;
+}
+
+.neo-shadow-sm {
+  box-shadow: 2px 2px 0px 0px #141414;
+}
+
+.neo-card {
+  background-color: #FFFFFF;
+  border: 2px solid #141414;
+  box-shadow: 4px 4px 0px 0px #141414;
+}
